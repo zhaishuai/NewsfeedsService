@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+	<intro>2</intro>
+	<list id="1">
+		<allow_domains>huxiu.com</allow_domains>
+		<start_urls>http://www.huxiu.com</start_urls>
+		<url_list>//div[@class='article-box-ctt']/h4/a</url_list>
+		<title>head/title/text()</title>
+		<content>//div[@id='neirong_box']//div</content>
+		<classification></classification>
+		<imageURL>//div123</imageURL>
+	</list>
+	<list id="2">
+		<allow_domains>weiphone.com</allow_domains>
+		<start_urls>http://www.weiphone.com/iPhone/news/index.shtml</start_urls>
+		<url_list>//div[@id='news']//div[@class='head']/h3/a</url_list>
+		<title>//div[@class='content_main']/h1/text()</title>
+		<content>//div[@class='content_text']/span</content>
+		<classification>2</classification>
+		<imageURL>//div123</imageURL>
+	</list>
+</info>

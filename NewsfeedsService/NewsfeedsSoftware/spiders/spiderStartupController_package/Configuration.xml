@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+	<intro>2</intro>
+	<list id="0">
+		<allow_domains>huxiu.com</allow_domains>
+		<start_urls>http://www.huxiu.com/</start_urls>
+		<url_list>//div[@class='article-box-ctt']/h4/a</url_list>
+		<js_url_list></js_url_list>
+		<js_xpath></js_xpath>
+		<js_artical_xpath></js_artical_xpath>
+		<title>head/title/text()</title>
+		<content>//div[@id='neirong_box']//div</content>
+		<classification>3</classification>
+		<imageURL>//div[@id='neirong_box']//img</imageURL>
+	</list>
+	<list id="1">
+		<allow_domains>weiphone.com</allow_domains>
+		<start_urls>http://www.weiphone.com/iPhone/news/index.shtml</start_urls>
+		<url_list>//div[@id='news']//div[@class='head']/h3/a</url_list>
+		<js_url_list></js_url_list>
+		<js_xpath></js_xpath>
+		<js_artical_xpath></js_artical_xpath>
+		<title>//div[@class='content_main']/h1/text()</title>
+		<content>//div[@class='content_text']/span</content>
+		<classification>3</classification>
+		<imageURL>//div[@class='content_text']//p/img</imageURL>
+	</list>
+	<list id="2">
+		<allow_domains>takungpao.com</allow_domains>
+		<start_urls>http://sports.takungpao.com/</start_urls>
+		<url_list>//div[@class='text_pic003']//div[@class='summary02']/a</url_list>
+		<js_url_list></js_url_list>
+		<js_xpath></js_xpath>
+		<js_artical_xpath></js_artical_xpath>
+		<title>head/title/text()</title>
+		<content>//div[@class='text']//p</content>
+		<classification>4</classification>
+		<imageURL>//div[@class='text']//img</imageURL>
+	</list>
+		<list id="3">
+		<allow_domains>ent.huanqiu.com</allow_domains>
+		<start_urls>http://ent.huanqiu.com/music/yinle-neidi/</start_urls>
+		<url_list>//dd[@class='title']/a</url_list>
+		<js_url_list></js_url_list>
+		<js_xpath></js_xpath>
+		<js_artical_xpath></js_artical_xpath>
+		<title>head/title/text()</title>
+		<content>//div[@id='text']//p|//div[@id='text']//img</content>
+		<classification>1</classification>
+		<imageURL>//div[@id='text']//img</imageURL>
+	</list>
+	<list id="4">
+		<allow_domains>ent.huanqiu.com</allow_domains>
+		<start_urls>http://ent.huanqiu.com/star/mingxing-neidi/</start_urls>
+		<url_list>//dd[@class='title']/a</url_list>
+		<js_url_list></js_url_list>
+		<js_xpath></js_xpath>
+		<js_artical_xpath></js_artical_xpath>
+		<title>head/title/text()</title>
+		<content>//div[@id='text']//p|//div[@id='text']//img</content>
+		<classification>1</classification>
+		<imageURL>//div[@id='text']//img</imageURL>
+	</list>
+	<list id="5">
+		<allow_domains>ent.huanqiu.com</allow_domains>
+		<start_urls>http://ent.huanqiu.com/movie/yingshi-neidi/</start_urls>
+		<url_list>//dd[@class='title']/a</url_list>
+		<js_url_list></js_url_list>
+		<js_xpath></js_xpath>
+		<js_artical_xpath></js_artical_xpath>
+		<title>head/title/text()</title>
+		<content>//div[@id='text']//p|//div[@id='text']//img</content>
+		<classification>1</classification>
+		<imageURL>//div[@id='text']//img</imageURL>
+	</list>
+	<list id="6">
+		<allow_domains>ent.huanqiu.com</allow_domains>
+		<start_urls>http://ent.huanqiu.com/movie/yingshi-gangtai/</start_urls>
+		<url_list>//dd[@class='title']/a</url_list>
+		<js_url_list></js_url_list>
+		<js_xpath></js_xpath>
+		<js_artical_xpath></js_artical_xpath>
+		<title>head/title/text()</title>
+		<content>//div[@id='text']//p|//div[@id='text']//img</content>
+		<classification>1</classification>
+		<imageURL>//div[@id='text']//img</imageURL>
+	</list>
+	<list id="7">
+		<allow_domains>china.huanqiu.com</allow_domains>
+		<start_urls>http://china.huanqiu.com/local/</start_urls>
+		<url_list>//div[@class='listNews']//a</url_list>
+		<js_url_list></js_url_list>
+		<js_xpath></js_xpath>
+		<js_artical_xpath></js_artical_xpath>
+		<title>head/title/text()</title>
+		<content>//div[@id='text']//p|//div[@id='text']//img</content>
+		<classification>0</classification>
+		<imageURL>//div[@id='text']//img</imageURL>
+	</list>
+	<list id="8">
+		<allow_domains>china.huanqiu.com</allow_domains>
+		<start_urls>http://china.huanqiu.com/livelihood/</start_urls>
+		<url_list>//div[@class='listNews']//a</url_list>
+		<js_url_list></js_url_list>
+		<js_xpath></js_xpath>
+		<js_artical_xpath></js_artical_xpath>
+		<title>head/title/text()</title>
+		<content>//div[@id='text']//p|//div[@id='text']//img</content>
+		<classification>0</classification>
+		<imageURL>//div[@id='text']//img</imageURL>
+	</list>
+	<list id="9">
+		<allow_domains>finance.huanqiu.com</allow_domains>
+		<start_urls>http://finance.huanqiu.com/china/</start_urls>
+		<url_list>//div[@class='listNews']//a</url_list>
+		<js_url_list></js_url_list>
+		<js_xpath></js_xpath>
+		<js_artical_xpath></js_artical_xpath>
+		<title>head/title/text()</title>
+		<content>//div[@id='text']//p|//div[@id='text']//img</content>
+		<classification>2</classification>
+		<imageURL>//div[@id='text']//img</imageURL>
+	</list>
+	<list id="10">
+		<allow_domains>auto.huanqiu.com</allow_domains>
+		<start_urls>http://auto.huanqiu.com/purchasecar/</start_urls>
+		<url_list>//div[@class='listNews']//a</url_list>
+		<js_url_list></js_url_list>
+		<js_xpath></js_xpath>
+		<js_artical_xpath></js_artical_xpath>
+		<title>head/title/text()</title>
+		<content>//div[@id='text']//p|//div[@id='text']//img</content>
+		<classification>5</classification>
+		<imageURL>//div[@id='text']//img</imageURL>
+	</list>
+	<list id="11">
+		<allow_domains>world.huanqiu.com</allow_domains>
+		<start_urls>http://world.huanqiu.com/regions/</start_urls>
+		<url_list>//div[@class='listNews']//a</url_list>
+		<js_url_list></js_url_list>
+		<js_xpath></js_xpath>
+		<js_artical_xpath></js_artical_xpath>
+		<title>head/title/text()</title>
+		<content>//div[@id='text']//p|//div[@id='text']//img</content>
+		<classification>6</classification>
+		<imageURL>//div[@id='text']//img</imageURL>
+	</list>
+	<list id="12">
+		<allow_domains>news.ifeng.com</allow_domains>
+		<start_urls>http://news.ifeng.com/society/</start_urls>
+		<url_list>/html/body/div[8]/div[1]/div[2]//div[@class='zt']//li//a</url_list>
+		<js_url_list></js_url_list>
+		<js_xpath></js_xpath>
+		<js_artical_xpath>document.getElementById('artical_real')</js_artical_xpath>
+		<title>head/title/text()</title>
+		<content>//div[@id='artical_real']//p|//div[@id='artical_real']//img</content>
+		<classification>0</classification>
+		<imageURL>//div[@id='artical_real']//img</imageURL>
+	</list>
+	<list id="13">
+		<allow_domains>finance.ifeng.com</allow_domains>
+		<start_urls>http://finance.ifeng.com/business/</start_urls>
+		<url_list>//div[@class='conlist']//h3//a</url_list>
+		<js_url_list></js_url_list>
+		<js_xpath></js_xpath>
+		<js_artical_xpath>document.getElementById('artical_real')</js_artical_xpath>
+		<title>head/title/text()</title>
+		<content>//div[@id='artical_real']//p|//div[@id='artical_real']//img</content>
+		<classification>2</classification>
+		<imageURL>//div[@id='artical_real']//img</imageURL>
+	</list>
+	<list id="14">
+		<allow_domains>finance.ifeng.com</allow_domains>
+		<start_urls>http://finance.ifeng.com/money/</start_urls>
+		<url_list>//div[@class='col_M']//div[@class='hotNews']//a</url_list>
+		<js_url_list></js_url_list>
+		<js_xpath></js_xpath>
+		<js_artical_xpath>document.getElementById('artical_real')</js_artical_xpath>
+		<title>head/title/text()</title>
+		<content>//div[@id='artical_real']//p|//div[@id='artical_real']//img</content>
+		<classification>2</classification>
+		<imageURL>//div[@id='artical_real']//img</imageURL>
+	</list>
+	<list id="15">
+		<allow_domains>ent.ifeng.com</allow_domains>
+		<start_urls>http://ent.ifeng.com/</start_urls>
+		<url_list>/html/body/div[7]/div[1]/div[2]//div[@class='hotNews']//a</url_list>
+		<js_url_list></js_url_list>
+		<js_xpath></js_xpath>
+		<js_artical_xpath>document.getElementById('artical_real')</js_artical_xpath>
+		<title>head/title/text()</title>
+		<content>//div[@id='artical_real']//p|//div[@id='artical_real']//img</content>
+		<classification>1</classification>
+		<imageURL>//div[@id='artical_real']//img</imageURL>
+	</list>
+	<list id="16">
+		<allow_domains>sports.ifeng.com</allow_domains>
+		<start_urls>http://sports.ifeng.com/zonghe/list_0/0.shtml</start_urls>
+		<url_list>//div[@class='newsList']//li//a</url_list>
+		<js_url_list></js_url_list>
+		<js_xpath></js_xpath>
+		<js_artical_xpath>document.getElementById('artical_real')</js_artical_xpath>
+		<title>head/title/text()</title>
+		<content>//div[@id='artical_real']//p|//div[@id='artical_real']//img</content>
+		<classification>4</classification>
+		<imageURL>//div[@id='artical_real']//img</imageURL>
+	</list>
+	<list id="17">
+		<allow_domains>tech.ifeng.com</allow_domains>
+		<start_urls>http://tech.ifeng.com/</start_urls>
+		<url_list>//div[@class='col_m']//a</url_list>
+		<js_url_list></js_url_list>
+		<js_xpath></js_xpath>
+		<js_artical_xpath>document.getElementById('artical_real')</js_artical_xpath>
+		<title>head/title/text()</title>
+		<content>//div[@id='artical_real']//p|//div[@id='artical_real']//img</content>
+		<classification>3</classification>
+		<imageURL>//div[@id='artical_real']//img</imageURL>
+	</list>
+</info>

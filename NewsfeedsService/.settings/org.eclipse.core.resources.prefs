@@ -1,0 +1,15 @@
+#Thu Sep 12 22:09:19 CST 2013
+eclipse.preferences.version=1
+encoding//NewsfeedsSoftware/article_categories_package/ArticleCategories.py=utf-8
+encoding//NewsfeedsSoftware/article_categories_package/ArticleCategoriesTrain.py=utf-8
+encoding//NewsfeedsSoftware/spiders/Spider.py=utf-8
+encoding//NewsfeedsSoftware/spiders/V8Engine/logger.py=utf-8
+encoding//NewsfeedsSoftware/spiders/spiderStartupController_package/CrawlerWorker.py=utf-8
+encoding//NewsfeedsSoftware/spiders/spiderStartupController_package/SpiderStartupController.py=utf-8
+encoding//NewsfeedsSoftware/spiders/spiderStartupController_package/debug.py=utf-8
+encoding//NewsfeedsSoftware/spiders/urlxpath_package/URL_Xpath.py=utf-8
+encoding//NewsfeedsSoftware/spiders/xpath_xml_parse_package/XpathXmlParse.py=utf-8
+encoding//newsfeedsDataLayer/models.py=utf-8
+encoding//newsfeedsDataLayer/userKeyWord.py=utf-8
+encoding//newsfeedsDataLayer/views.py=UTF-8
+encoding/test.py=utf-8
